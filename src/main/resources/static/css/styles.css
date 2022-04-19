@@ -1,0 +1,285 @@
+@charset "ISO-8859-1";
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media only screen and (max-width: 481px){
+	.log-form{
+		display: flex;
+        flex-direction: column;
+        margin-top:20px;
+	}
+
+	option{
+		padding-top:10px;
+		padding-bottom:10px;
+	}
+	
+	select{
+		padding:10px;
+		border:none;
+		border-radius:5px;
+		margin-top:5px;
+	}
+	
+	.login{
+		margin-bottom:50px;
+	}
+	
+    body{
+    	margin-top:20px;
+        margin-right: 10%;
+        margin-left: 10%;
+        background-color: rgb(31, 30, 30);
+        }
+
+    .navBar{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 30px;
+        margin-bottom: 60px;
+    }
+
+    a{
+        text-decoration: none;
+        color: white;
+    }
+
+    .menu{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    form{
+        display: flex;
+        flex-direction: column;
+    }
+
+    input{
+        padding: 10px;
+        border-radius: 5px;
+        margin-top: 5px;
+        margin-bottom: 15px;
+        border: none;
+    }
+
+    .title{
+        text-align: center;
+        color: dodgerblue;
+    }
+
+    .logo{
+        color: white;
+        font-size: xx-large;
+        margin-bottom:20px;
+    }
+
+    label{
+        color: white;
+        font-weight: bold;
+    }
+
+    .action{
+        color: white;
+        background-color: dodgerblue;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-weight: 700;
+        font-size: 1.5rem;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (min-width: 481px)and (max-width: 1023px){
+    body{
+   		margin-top:20px;
+        background-color: rgb(31, 30, 30);
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+    
+    .navBar{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 30px;
+        margin-bottom: 60px;
+    }
+    
+    select{
+		padding:10px;
+		border:none;
+		border-radius:5px;
+		margin-top:5px;
+	}
+    
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    .menu{
+        justify-content: space-between;
+    }
+    
+    .menu_item{
+        margin-left: 50px;
+    }
+    
+    form{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    input{
+        padding: 10px;
+        border-radius: 5px;
+        margin-top: 5px;
+        margin-bottom: 15px;
+        border: none;
+    }
+    
+    .title{
+        text-align: center;
+        color: dodgerblue;
+        margin-bottom: 20px;
+    }
+    
+    .logo{
+        color: white;
+        font-size: xx-large;
+        margin-bottom:20px;
+    }
+    
+    label{
+        color: white;
+        font-weight: bold;
+    }
+    
+    .action{
+        color: white;
+        background-color: dodgerblue;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-weight: 700;
+        font-size: 1.5rem;
+        border: none;
+        border-radius: 10px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    
+    .login{
+    	margin-bottom:50px;	
+    }
+    
+}
+
+@media only screen and (min-width: 1024px){
+    body{
+    	margin-top:5%;
+        margin-right: 10%;
+        margin-left: 10%;
+        background-color: rgb(31, 30, 30);
+        }
+    
+    
+    .log-form{
+    	display:flex;
+    	flex-direction:row;
+    	justify-content:space-between;
+    	margin-top:30px;
+    	gap:50px;
+    }
+    
+    
+    .navBar{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+    
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    .menu{
+        justify-content: space-between;
+    }
+    
+    .menu_item{
+        margin-left: 50px;
+    }
+    
+    form{
+        display: flex;
+        flex-direction: column;
+        width:100%;
+    }
+    
+	.title-login{
+		margin-top:50px;
+	    color: dodgerblue;
+        margin-bottom: 50px;
+	}
+    
+    input{
+        padding: 10px;
+        border-radius: 5px;
+        margin-top: 5px;
+        margin-bottom: 15px;
+        border: none;
+    }
+    
+    .title{
+        text-align: center;
+        color: dodgerblue;
+        margin-bottom: 50px;
+    }
+    
+    .logo{
+        color: white;
+        font-size: xx-large;
+    }
+    
+    label{
+        color: white;
+        font-weight: bold;
+    }
+    
+    .action{
+        color: white;
+        background-color: dodgerblue;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-weight: 700;
+        font-size: 1.5rem;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        margin-top: 20px;
+    }
+    
+        select{
+		padding:10px;
+		border:none;
+		border-radius:5px;
+		margin-top:5px;
+	}
+}
